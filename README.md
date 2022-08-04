@@ -1,5 +1,7 @@
-# KeyAuth-Loader-Emulation
+# KeyAuth Loader Emulation
 KeyAuth is a **brilliant** auth and I would recommend it for beginner-to-intermediate programmers, however too many skids are using KeyAuth without taking sufficient measures to protect their application.
+
+**(THIS IS NOT THE SAME EMULATION AS KEYAUTH "BYPASSES/EMULATORS". THE TERM EMULATION HERE REFERS TO "EMULATING" SOME SKID LOADER BY USING THE SAME KEYAUTH APPLICATION INFORMATION TO MAKE THIS TOOL LOOK LIKE IT IS THE LOADER.)**
 
 I have noticed most loaders using KeyAuth gather the user's SID ``WindowsIdentity.GetCurrent().User.Value`` for the HWID (anti-keysharing) algorithm. This can be spoofed/modified via multiple ways, one being to use an application that uses KeyAuth but feeding in the skid's KeyAuth app details into it and then passing through any value for HWID, PC username, etc.
 
