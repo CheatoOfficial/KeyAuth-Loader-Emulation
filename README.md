@@ -1,5 +1,5 @@
 # KeyAuth Loader Emulation
-**Showcase: https://www.youtube.com/watch?v=RfjuwVc8-qE&t=434s**
+**Showcase: https://www.youtube.com/watch?v=RfjuwVc8-qE&t=274s**
 
 KeyAuth is a **brilliant** auth and I would recommend it for beginner-to-intermediate programmers, however too many skids are using KeyAuth without taking sufficient measures to protect their application.
 
